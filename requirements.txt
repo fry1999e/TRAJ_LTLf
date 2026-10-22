@@ -1,0 +1,8 @@
+# Traj-LTLf direct runtime dependencies. Keep this file ASCII for Windows pip.
+openai==1.75.0
+langchain-core==0.3.86
+langchain-openai==0.3.23
+python-dotenv==1.1.1
+jsonschema==4.26.0
+requests==2.34.2
+openpyxl==3.1.5

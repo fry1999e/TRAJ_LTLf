@@ -1,0 +1,2 @@
+# Compatibility include; requirements.txt is the single source of direct pins.
+-r requirements.txt

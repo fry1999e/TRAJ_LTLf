@@ -1,0 +1,46 @@
+{
+  "format": "traj-ltlf-xlsx-data-v1",
+  "datasets": {
+    "A72": {
+      "count": 72,
+      "input": "input/A72.xlsx",
+      "sheet": "A72"
+    },
+    "B240": {
+      "count": 240,
+      "input": "input/B240.xlsx",
+      "sheet": "B240"
+    },
+    "C1026": {
+      "count": 1026,
+      "input": "input/C1026.xlsx",
+      "sheet": "C1026"
+    }
+  },
+  "evaluation": {
+    "file": "LTLf_Evaluation_Dataset.xlsx",
+    "count": 1338,
+    "join_key": "Requirement ID",
+    "usage": "offline_only"
+  },
+  "evaluation_records_sha256": "6569c256a699bf1be42d05c9d3a8a111a4a4cdf1905875d96f624b4ce75ba1c6",
+  "files": {
+    "LTLf_Evaluation_Dataset.xlsx": "ba75ed48e3cae4ef9f57ad5a585e0b3558365033916a9a3530567b1f8ffaf7b1",
+    "input/A72.xlsx": "435cf624ef8b31d71fef1f5e9db041a21560d1ac59669cbdb8c293ae34f5a90b",
+    "input/B240.xlsx": "e1c3bae68eca9ac7d05aa72de03d978b98374fab5cc123492f339daafe71b123",
+    "input/C1026.xlsx": "4234b42fc1ae68d40380844a804ab45efb58233915dde3ca7bfb65a9f59f75b0",
+    "input/example.xlsx": "1b94fbd1c9ee40889eb3a2f19659a27e51bc9db8b021a2b74027713d0cbf0428"
+  },
+  "raw_files": {
+    "aerospace_db/aerospace-dataset.LTLf.filtered.LTL_only.md": "b050a5d0e54c38f11ccef816411bcc40dc117dbe9d9b595a215fa070799143e0",
+    "aerospace_db/aerospace-dataset.LTLf.filtered.NL_only.md": "7e3510367115140de5ca18981ee078ae4bd40467f44418bac07128836275631f",
+    "aerospace_db/aerospace-dataset.LTLf.filtered_segment.md": "0b8cb4d54acf8b34a43eb1b719a3e61e1a08ab82c871f50749b3f6ceec7af2cb",
+    "construct_db/examples.md": "e84536f2ce90bc961fd12ca5c650d042cb41c8099896d2d646642eb1393ccb5e",
+    "construct_db/examples_ltl.md": "031baa452a7de7b9b6eb7bb8bdc0b981259b479b51933109c9bb88562e151d13",
+    "construct_db/examples_segment.md": "9a9ea81f87500398058d5649ef52fc4bbc6e5edb0605b5f39a64821a202283d6",
+    "controll_db/ltlf_mechanism_240.LTLf_only.md": "2b633d23a72c8c7f066027d6f39de01cc32cf77f53a38ec78693a1a4903c1b49",
+    "controll_db/ltlf_mechanism_240.NL_and_type.md": "99ee9ce4cbf9cea1f06e627508079851a3db1dc0526a58ce69b701eff512fb13",
+    "controll_db/ltlf_mechanism_240.NL_and_type1.md": "5e110c70adb134971d20d25102a64ee83af50a256224c6d1183add8fecdf2f34",
+    "controll_db/ltlf_mechanism_240.NL_and_type_segment.md": "c92414288783fcee111ecb5f18081116b9e5fe2a9b8335a5b06e046c5a011665"
+  }
+}

@@ -1,0 +1,14 @@
+[project]
+name = "traj-ltlf"
+version = "0.2.0"
+description = "Natural-language to LTLf with manual semantic and trace review"
+readme = "README.md"
+requires-python = ">=3.13"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

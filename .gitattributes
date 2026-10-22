@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Dataset sources and deterministic exports must retain their exact bytes.
+data/input/sources/** -text
+data/**/*.xlsx -text
+data/*.xlsx -text
+data/manifest.json -text
+data/input/*.md -text
+data/input/*.json -text

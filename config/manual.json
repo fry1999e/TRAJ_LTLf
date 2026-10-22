@@ -1,0 +1,13 @@
+{
+  "review": "manual",
+  "experiment_mode": "human",
+  "llm": "api",
+  "segmentation_review": "manual",
+  "plain_reading_review": "manual",
+  "delivery_policy": "strict",
+  "requirements_file": "data/input/example.xlsx",
+  "run_dir": "data/output/manual",
+  "checkpoint_dir": "data/output/manual/checkpoints",
+  "rag_memory_file": "",
+  "progress": "auto"
+}
