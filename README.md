@@ -33,9 +33,9 @@ The archive contains the experimental results for the second-round review of *Tr
 | `c1026/` | Scores for all 1,026 source requirements across three models and three methods (9,234 conditions), plus outcome totals and six paired comparisons. |
 | `domains/` | Candidate-domain counts for the natural-language evaluations. |
 | `selection/` | Early-choice outcomes for each model and one shared delayed-choice outcome per task across 24 constructed tasks. |
-| `example/` | Trace verdicts before and after the exception-scope correction, and agreement across 4,672 formula–trace comparisons. |
+| `example/` | Trace verdicts before and after the exception-scope correction. The domain experts who designed the example specified its reference labels in code. Two implementations agreed on all 4,672 formula–trace comparisons. |
 
-Open `README.md` inside the ZIP to find the files for each of the eight review points and the definitions of the result fields.
+The authors confirm that at least two domain experts independently assessed each verification item in the package, including the worked example. The `README.md` inside the ZIP lists the files for each of the eight review points and defines the result fields.
 
 ---
 
