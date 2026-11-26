@@ -23,6 +23,22 @@ Traj-LTLf follows a **Review → Construct → Validate → Deliver** pipeline:
 
 ---
 
+## 📦 Second-Round Evidence Package
+
+The archive contains the experimental results for the second-round review of *Traj-LTLf: Boundary-Aware NL-to-LTLf Formalization via Formula-Blind Trace Evidence* (manuscript `electronics-4683740`). [Download the evidence package (ZIP, version 2, 26 November 2026)](./R2_Results_20261126_v2.zip?raw=true).
+
+| Directory in the ZIP | Contents |
+| --- | --- |
+| `a72/` | Delivery outcomes for both ordinary A72 rounds, first-round totals under the corrected method names, and results of the separate no-recovery experiment. |
+| `c1026/` | Scores for all 1,026 source requirements across three models and three methods (9,234 conditions), plus outcome totals and six paired comparisons. |
+| `domains/` | Candidate-domain counts for the natural-language evaluations. |
+| `selection/` | Early-choice outcomes for each model and one shared delayed-choice outcome per task across 24 constructed tasks. |
+| `example/` | Trace verdicts before and after the exception-scope correction, and agreement across 4,672 formula–trace comparisons. |
+
+Open `README.md` inside the ZIP to find the files for each of the eight review points and the definitions of the result fields.
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Installation
